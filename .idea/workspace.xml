@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b316bef-b9c1-4439-9bfb-143060cec47d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backup/src/utils.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backup/src/backup.py" afterPath="$PROJECT_DIR$/backup/src/backup.py" />
     </list>
@@ -30,16 +29,16 @@
       <file leaf-file-name="backup.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/backup/src/backup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="4" selection-start="3552" selection-end="3552" vertical-scroll-proportion="2.2741117">
+            <state line="36" column="77" selection-start="1258" selection-end="1258" vertical-scroll-proportion="0.29068324">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="backup.cfg" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backup/src/backup.cfg">
+      <file leaf-file-name="utils.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backup/src/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="23" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
+            <state line="14" column="22" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -91,7 +90,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -148,12 +146,14 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
   <component name="RunManager" selected="Python.backup">
     <configuration default="false" name="backup" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -258,17 +258,17 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289941" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24960254" sideWeight="0.51360947" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43195266" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.48639053" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48639053" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="92" y="92" width="1096" height="800" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="92" y="92" width="1096" height="800" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289941" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -308,19 +308,19 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/backup/src/backup.py</url>
-          <line>95</line>
+          <line>96</line>
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/backup/src/backup.py</url>
-          <line>66</line>
+          <line>67</line>
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/backup/src/backup.py</url>
-          <line>80</line>
+          <line>81</line>
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/backup/src/backup.py</url>
-          <line>127</line>
+          <line>128</line>
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/backup/src/backup.py</url>
@@ -332,91 +332,71 @@
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/.PyCharm10/system/python_stubs/76178323/datetime.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="467" column="12" selection-start="16427" selection-end="16501" vertical-scroll-proportion="0.36808512">
-          <folding />
-        </state>
+        <state line="467" column="12" selection-start="16427" selection-end="16501" vertical-scroll-proportion="0.36808512" />
       </provider>
     </entry>
     <entry file="file://C:/python/Python27/Lib/_strptime.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="453" column="0" selection-start="19709" selection-end="19709" vertical-scroll-proportion="0.7536232">
-          <folding />
-        </state>
+        <state line="453" column="0" selection-start="19709" selection-end="19709" vertical-scroll-proportion="0.7536232" />
       </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1167" column="0" selection-start="48238" selection-end="48238" vertical-scroll-proportion="0.7106383">
-          <folding />
-        </state>
+        <state line="1167" column="0" selection-start="48238" selection-end="48238" vertical-scroll-proportion="0.7106383" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm10/system/python_stubs/76178323/time.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="151" column="75" selection-start="4809" selection-end="4817" vertical-scroll-proportion="0.50931674">
-          <folding />
-        </state>
+        <state line="151" column="75" selection-start="4809" selection-end="4817" vertical-scroll-proportion="0.50931674" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backup/src/boto/boto/ec2/snapshot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="13" selection-start="4470" selection-end="4470" vertical-scroll-proportion="0.9296066">
-          <folding />
-        </state>
+        <state line="114" column="13" selection-start="4470" selection-end="4470" vertical-scroll-proportion="0.9296066" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm10/system/python_stubs/76178323/__builtin__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3188" column="8" selection-start="108994" selection-end="108994" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="3188" column="8" selection-start="108994" selection-end="108994" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backup/src/boto/boto/connection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="636" column="0" selection-start="25901" selection-end="25901" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="636" column="0" selection-start="25901" selection-end="25901" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backup/src/boto/boto/ec2/image.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="224" column="79" selection-start="8765" selection-end="8771" vertical-scroll-proportion="0.2576419">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backup/src/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="4" selection-start="174" selection-end="174" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
+        <state line="224" column="79" selection-start="8765" selection-end="8771" vertical-scroll-proportion="0.2576419" />
       </provider>
     </entry>
     <entry file="file://C:/python/Python27/Lib/ConfigParser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="575" column="0" selection-start="21214" selection-end="21214" vertical-scroll-proportion="0.37100738">
-          <folding />
-        </state>
+        <state line="575" column="0" selection-start="21214" selection-end="21214" vertical-scroll-proportion="0.37100738" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backup/src/boto/boto/ec2/connection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="271" column="24" selection-start="10786" selection-end="10802" vertical-scroll-proportion="0.4746193">
+        <state line="271" column="24" selection-start="10786" selection-end="10802" vertical-scroll-proportion="0.4746193" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup/src/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="22" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backup/src/backup.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="23" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
+        <state line="4" column="8" selection-start="0" selection-end="189" vertical-scroll-proportion="0.083129585">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backup/src/backup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="4" selection-start="3552" selection-end="3552" vertical-scroll-proportion="2.2741117">
+        <state line="36" column="77" selection-start="1258" selection-end="1258" vertical-scroll-proportion="0.29068324">
           <folding />
         </state>
       </provider>

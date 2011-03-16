@@ -34,6 +34,7 @@ def find_target(target, reservations) :
             continue
         instance = instances[0]
         instanceIp = resolveIp(instance.dns_name)
+        print "IP for {} resolved as {}".format(instance.dns_name, instanceIp)
         if instanceIp == ip:
             return instance
 
