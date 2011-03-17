@@ -1,6 +1,8 @@
 import socket
 import datetime
 import time
+from urllib import urlopen
+
 
 def single_or_none(list):
     if len(list) != 1:
@@ -14,6 +16,10 @@ def single(list):
     if result is None:
         raise Exception("Only images with exactly one EBS volumes are currently supported")
     return result
+
+
+def get_my_ip():
+    return urlopen('http://whatismyip.com/automation/n09230945.asp').read()
 
 
 def get_time(dt_str):

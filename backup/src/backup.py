@@ -33,7 +33,7 @@ def find_target(target, reservations) :
             print "Skipping reservation " + reservation
             continue
         instance = instances[0]
-        instanceIp = resolveIp(instance.dns_name)
+        instanceIp = instance.ip_address
         print "IP for {} resolved as {}".format(instance.dns_name, instanceIp)
         if instanceIp == ip:
             return instance
