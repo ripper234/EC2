@@ -1,6 +1,7 @@
 import socket
 import datetime
 import time
+import re
 from urllib import urlopen
 
 
@@ -36,4 +37,4 @@ def get_current_utc_time():
 
 def resolveIp(target):
     ip = repr(socket.gethostbyname_ex(target)[2][0])
-    return ip
+    return re.search("'(.*)'", ip).group(1)
