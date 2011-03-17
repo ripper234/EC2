@@ -25,7 +25,7 @@ def get_my_amis(conn):
 
 def find_target(target, reservations) :
     ip = utils.resolveIp(target)
-    print "Finding instance for " + target + " (IP " + ip + ")"
+    print "Finding instance for {} (IP {)}) out of {} reservations".format(target, IP, len(reservations))
     for reservation in reservations:
         # pdb.set_trace()
         instances = reservation.instances
