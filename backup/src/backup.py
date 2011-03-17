@@ -1,14 +1,22 @@
 # This script will look up all your running EC2 images, find the current one, and back it up by creating an AMI 
 import re
 import datetime
+import sys
 from boto.ec2.connection import EC2Connection
 from collections import defaultdict
 import ConfigParser
+import os.path
 
 import utils
 from utils import resolveIp
 
 # Configuration
+config_file_name = 'backup.cfg'
+
+if not os.path.isfile(config_file_name):
+    print "To use this script, copy 'sample.cfg' to 'backup.cfg' and fill in your values"
+    sys.exit(1)
+
 config = ConfigParser.ConfigParser()
 config.read('backup.cfg')
 
