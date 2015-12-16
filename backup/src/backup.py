@@ -127,7 +127,7 @@ def find_hours_since_last_backup(conn, instance):
     latest_time = utils.get_time(latest_snapshot.start_time)
     now_utc = utils.get_current_utc_time()
     diff = now_utc - latest_time
-    diff_hours = diff.total_seconds() * 3600
+    diff_hours = diff.total_seconds() / 3600
     print "Latest snapshot is from {}, which is {} hours ago".format(latest_time, diff_hours)
     return diff_hours
 
